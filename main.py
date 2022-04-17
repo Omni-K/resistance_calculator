@@ -4,16 +4,16 @@ from kivymd.uix.boxlayout import MDBoxLayout
 from kivymd.uix.button import MDFlatButton, MDRectangleFlatButton, MDRaisedButton
 from kivy.properties import ColorProperty
 
-nominal_colors = [[0, 0, 0, 1],  # black
+nominal_colors = [[0.1, 0.1, 0.1, 1],  # black
                   [0.3, 0.3, 0, 1],  # brown
-                  [1, 0, 0, 1],  # red
-                  [1, 0.7, 0, 1],  # orange
-                  [1, 1, 0, 1],  # yellow
-                  [0, 1, 0, 1],  # green
-                  [0, 0.8, 1, 1],  # blue
-                  [1, 0.3, 1, 1],  # purple
-                  [0.1, 0.1, 0.2, 1],  # grey
-                  [1, 1, 1, 1],  # white
+                  [0.8, 0, 0, 1],  # red
+                  [0.9, 0.7, .2, 1],  # orange
+                  [0.8, .8, 0, 1],  # yellow
+                  [0, .8, 0, 1],  # green
+                  [0, 0.6, .8, 1],  # blue
+                  [.8, 0.3, .8, 1],  # purple
+                  [0.2, 0.2, 0.3, 1],  # grey
+                  [.8, .8, .8, 1],  # white
                   ]
 
 
